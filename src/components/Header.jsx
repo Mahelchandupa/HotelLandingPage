@@ -1,5 +1,3 @@
-import React from 'react'
-
 import logo from '../assests/logo.png'
 
 const Header = () => {
@@ -18,7 +16,7 @@ const Header = () => {
             })
          } 
        </ul> 
-       <button className=' font-medium px-[46px] py-[16px] bg-[#7C6A46] rounded-md text-white'>Book Now</button>
+       <button className=' font-medium px-[46px] py-[16px] bg-gray rounded-md text-white'>Book Now</button>
     </div>
   )
 }
