@@ -34,7 +34,7 @@ const filters = [
 
 const BookNow = () => {
     return (
-        <div className=' px-[120px] h-[120px] bg-white absolute bottom-[40px] w-full items-center flex'>
+        <div className=' px-[120px] h-[120px] bg-white absolute bottom-[80px] w-full items-center flex'>
             <div className=" px-[40px] flex items-center justify-between w-full font-poppins">
                 <div className=" flex w-full gap-36">
                     {
