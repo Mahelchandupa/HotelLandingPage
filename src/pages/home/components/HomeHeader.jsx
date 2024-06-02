@@ -3,7 +3,7 @@ import PlayIcon from '../../../assests/play-icon.png'
 
 const HomeHeader = () => {
     return (
-        <div className=' px-[120px] pt-[120px] flex justify-between'>
+        <div className=' px-[120px] pt-[80px] flex justify-between'>
             <div className=' py-[60px]'>
                 <h2 className=' font-dancing text-[50px] font-semibold text-gray'>Paradise View</h2>
                 <h1 className=' mt-[26px] font-raleway text-[55px] font-bold'>Hotel for every<br />moment rich in<br />emotion</h1>
