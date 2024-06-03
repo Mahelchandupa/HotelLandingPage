@@ -10,13 +10,13 @@ import { MdLocalParking } from "react-icons/md";
 const FacilitiesGrid = () => {
   return (
     <div className=" flex justify-center items-center">
-    <div className=" grid grid-cols-4 gap-14">
+    <div className=" grid grid-cols-4 gap-14 mt-[50px]">
       {
         facilityList.map((item, key) => {
             return (
-                <div key={ key } className=" w-[280px] h-[250px] flex flex-col justify-center items-center">
+                <div key={ key } className=" w-[280px] h-[250px] flex flex-col justify-center items-center text-gray rounded-md hover:bg-gray hover:text-white transition-colors duration-300">
                     { item.icon }
-                    <h5 className=" font-poppins text-[20px] text-gray font-medium">{ item.title }</h5>
+                    <h5 className=" font-poppins text-[20px]font-medium ">{ item.title }</h5>
                 </div>
             )
         })
@@ -28,7 +28,7 @@ const FacilitiesGrid = () => {
 
 export default FacilitiesGrid
 
-const IconStyle = "text-gray text-[60px] mb-[10px]";
+const IconStyle = "text-[60px] mb-[10px]";
 
 const facilityList = [
     {
