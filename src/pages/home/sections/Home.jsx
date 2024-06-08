@@ -3,6 +3,7 @@ import BookNow from '../components/BookNow'
 import HomeHeader from '../components/HomeHeader'
 import Facilities from './Facilities'
 import LuxuriousRooms from './LuxuriousRooms'
+import Testimonial from './Testimonial'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       </div>
       <Facilities />
       <LuxuriousRooms />
+      <Testimonial />
     </div>
   )
 }
